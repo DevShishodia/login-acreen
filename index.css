@@ -35,7 +35,7 @@ body{
     margin-top: 4vh;
     justify-content: center;
     align-items: center;
-    gap: 4vw;
+    gap: 10px;
 }
 .circle{
      width: 10px;
