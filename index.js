@@ -11,10 +11,10 @@ const checkPin = (pin) => {
       code = code *10;
        code += pin;
     if(code == 1234){
-        console.log('unlocked');
-        document.getElementById('lock_screen').classList.add('d-none');
-        document.getElementById('unlock').classList.remove('d-none');
-
+          setTimeout(function(){
+            document.getElementById('lock_screen').classList.add('d-none');
+            document.getElementById('unlock').classList.remove('d-none');
+        },50);
     }
 }
 
