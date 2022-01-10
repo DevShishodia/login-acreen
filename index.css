@@ -5,10 +5,11 @@
 body{
     display: flex;
     justify-content: center;
+    background: linear-gradient(to bottom right ,#fdc639,#ff7c60);
 }
 
 .lock_screen{
-    background-color: salmon;
+    background: linear-gradient(to bottom right,#6889ff,#9b16ee);
     width: 240px;
     height: 450px;
     border: 2px solid black;
@@ -74,7 +75,7 @@ button > p {
 }
 
 button:hover{
-    background-color: rgba(255,255, 255, 0.5);
+   background: linear-gradient(to bottom right ,rgb(243, 136, 14),rgb(37, 240, 37));
 }
 .d-none{
     opacity: 0;
@@ -90,7 +91,7 @@ button:hover{
 .unlock{
     width: 100vw;
     height: 100vh;
-    background-color: burlywood;
+    background: linear-gradient(to bottom right , #6ff830,#f7e010);
     display: flex;
     justify-content: center;
     align-items: center;
